@@ -7,6 +7,8 @@ import java.io.Serializable;
  * @Date: 2020/11/19 16:50
  */
 public class User implements Serializable {
+
     private String username;
     private String password;
+    private int age;
 }
